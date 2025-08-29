@@ -16,8 +16,10 @@ body{
   justify-content: space-between;
   align-items: center;
   padding: 12px 20px;
-  background: #fff;
+  background: white;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
 
 .nav-left {
@@ -61,12 +63,10 @@ body{
   object-fit: contain;
 }
 
+
 .stat.copy {
   background: #22c55e;
   color: #fff;
-  padding: 4px 10px;
-  border-radius: 20px;
-  font-size: 14px;
 }
 
 
