@@ -10,6 +10,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+       <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -24,17 +28,144 @@
         </div>
 
         <div class="nav-right">
-            <span id="heartbeat"><img src="assets/heart.png" class="icon">0</span>
-            <span id="coincount"><img src="assets/coin.png" class="icon">100</span>
-            <span id="copycount">0</span>
+             <div class="pill">
+               <span id="heartCount">0</span>
+                <img src="assets/heart.png" alt="Heart" class="icon">
+                 </div>
+
+            <div class="pill">
+               <span id="coinCount">100</span>
+                <img src="assets/coin.png" alt="Coin" class="icon">
+                 </div>
+
+            <div class="pill pill-green">
+              <span id="copyCount">2 Copy</span>
+               </div>
         </div>
 
     </nav>
 
-<main>
+    <!-- Hero -->
+     <section class="hero">
+        <img src="assets/logo.png" class="logo-hero">
+        <h2>Emergency Service Directory</h2>
+        <p>Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+     </section>
+
+ <!-- Main Section -->
+<main class="main-container">
+
+  <!-- Cards Section -->
+  <section class="cards-section">
+    <!-- Fire Service -->
+    <div class="card">
+      <div class="card-header">
+        <img src="assets/fire-service.png" class="card-icon">
+        <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+      </div>
+
+      <h3 class="service-name">Fire Service Number</h3>
+      <span class="service-sub">Fire Service</span>
+
+      <p class="phone-number">999</p>
+      <span class="badge">Fire</span>
+
+      <div class="card-actions">
+        <button class="copy-btn"><i class="fa-regular fa-copy"></i> Copy</button>
+        <button class="call-btn"><i class="fa-solid fa-phone"></i> Call</button>
+      </div>
+    </div>
+
+     <!-- Police -->
+  <div class="card">
+    <div class="card-header">
+      <img src="assets/police.png" class="card-icon">
+      <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+    </div>
+    <h3 class="service-name">Police Helpline Number</h3>
+    <span class="service-sub">Police</span>
+    <p class="phone-number">999</p>
+    <span class="badge">Police</span>
+    <div class="card-actions">
+      <button class="copy-btn"><i class="fa-regular fa-copy"></i> Copy</button>
+      <button class="call-btn"><i class="fa-solid fa-phone"></i> Call</button>
+    </div>
+  </div>
+
+  <!-- National Emergency -->
+  <div class="card">
+    <div class="card-header">
+      <img src="assets/emergency.png"  class="card-icon">
+      <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+    </div>
+    <h3 class="service-name">National Emergency Number</h3>
+    <span class="service-sub">National Emergency</span>
+    <p class="phone-number">999</p>
+    <span class="badge">All</span>
+    <div class="card-actions">
+      <button class="copy-btn"><i class="fa-regular fa-copy"></i> Copy</button>
+      <button class="call-btn"><i class="fa-solid fa-phone"></i> Call</button>
+    </div>
+  </div>
+
+   <!-- Ambulance -->
+  <div class="card">
+    <div class="card-header">
+      <img src="assets/ambulance.png"  class="card-icon">
+      <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+    </div>
+    <h3 class="service-name">Ambulance Service</h3>
+    <span class="service-sub">Ambulance</span>
+    <p class="phone-number">1994-999999</p>
+    <span class="badge">Health</span>
+    <div class="card-actions">
+      <button class="copy-btn"><i class="fa-regular fa-copy"></i> Copy</button>
+      <button class="call-btn"><i class="fa-solid fa-phone"></i> Call</button>
+    </div>
+  </div>
+    
+   <!-- Women & Child Helpline -->
+  <div class="card">
+    <div class="card-header">
+      <img src="assets/heart.png" class="card-icon">
+      <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+    </div>
+    <h3 class="service-name">Women & Child Helpline</h3>
+    <span class="service-sub">Women & Child Helpline</span>
+    <p class="phone-number">109</p>
+    <span class="badge">Help</span>
+    <div class="card-actions">
+      <button class="copy-btn"><i class="fa-regular fa-copy"></i> Copy</button>
+      <button class="call-btn"><i class="fa-solid fa-phone"></i> Call</button>
+    </div>
+  </div>
+
+  <!--Bangladesh Railway Helpline -->
+  <div class="card">
+    <div class="card-header">
+      <img src="assets/Bangladesh-Railway.png" class="card-icon">
+      <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+    </div>
+    <h3 class="service-name">Bangladesh Railway Helpline</h3>
+    <span class="service-sub">Bangladesh-Railway</span>
+    <p class="phone-number">163</p>
+    <span class="badge">Travel</span>
+    <div class="card-actions">
+      <button class="copy-btn"><i class="fa-regular fa-copy"></i> Copy</button>
+      <button class="call-btn"><i class="fa-solid fa-phone"></i> Call</button>
+    </div>
+  </div>  
+  </section>
+
+   
+  </main>
+
+  <footer></footer>
+</body>
+</html>
 
 </main>
-
+ 
 <footer>
 
 </footer>

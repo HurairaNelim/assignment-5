@@ -1,9 +1,13 @@
+/* universal */
+   * {margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     }
 
 /* body */
 body{
     font-family: 'Hind Madurai', sans-serif;
-    margin: 0px;
-    padding: 0px;
+   
 }
 
 /* navbar */
@@ -12,7 +16,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background: white;
-    padding: 10px 20px;
+    padding: 24px 60px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
@@ -20,11 +24,6 @@ body{
     display: flex;
     align-items: center;
     gap: 10px;
-}
-
-.nav-right{display: flex;
-  align-items: center;
-  gap: 15px;
 }
 
 .logo {
@@ -37,4 +36,157 @@ body{
   color: #006747; 
   line-height: 1.2;
   font-size: 24px; 
+}
+
+.nav-right{display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.pill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 25px;   
+  background: #f0fdf4;   
+  font-weight: 600;
+}
+
+.pill-green {
+  background: #22c55e;   
+  color: white;
+  cursor: pointer;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+
+/* Hero */
+.hero{
+  text-align: center;
+  color: white;
+  padding: 60px 12px ;
+  background: linear-gradient(#013223, #006747, #013223);
+  
+}
+.logo-hero {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+
+/* main section */
+
+.main-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/*==cards sction== */
+.cards-section {
+  flex: 3;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+ /* ==cards style== */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.heart-btn {
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  color: #666666;
+  cursor: pointer;
+}
+
+.service-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 12px 0 4px;
+  color: #030303;
+}
+
+.service-sub {
+  font-size: 14px;
+  color: #646464;}
+
+  .phone-number {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #030303;
+}
+
+.badge {
+  display: inline-block;
+  background: rgb(236, 236, 236);
+  color: #646464;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+/* ==card action part== */
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.copy-btn,
+.call-btn {
+  flex: 1;
+  padding: 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+
+}
+
+.copy-btn {
+  background: white;
+  color: #504f4f;
+  border-color: #bbbaba;
+}
+
+.call-btn {
+  background: #16a34a;
+  color: white;
+  border: none;
 }
