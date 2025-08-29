@@ -46,10 +46,13 @@ body{
 .stat {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
   font-weight: 600;
   font-size: 15px;
-  color: #333;
+  color: #000;
+  background: #f0fdf4;   
+  padding: 6px 14px;
+  border-radius: 999px;
 }
 
 .icon {
